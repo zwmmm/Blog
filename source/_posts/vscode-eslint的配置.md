@@ -1,7 +1,6 @@
 ---
 title: vscode+eslint的配置
 date: 2018-08-15 11:18:08
-banner: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533643673254&di=3b14c9eb666e5798e90e8574d087d9c1&imgtype=0&src=http%3A%2F%2Fc.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F9a504fc2d562853587bafefd9cef76c6a6ef6397.jpg
 thumbnail: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533643573891&di=3e7c709f7bc31bd53e52c58a9eaed09d&imgtype=0&src=http%3A%2F%2Fcdnq.duitang.com%2Fuploads%2Fitem%2F201505%2F16%2F20150516211813_MwWSd.jpeg
 tags:
 - eslint
@@ -19,6 +18,7 @@ npm i eslint eslint-config-standard eslint-plugin-html eslint-plugin-import esli
 2. 新建配置文件以及忽略配置文件
 在根目录下新建`.eslintrc.js` `.eslintignore`
 
+<!-- more -->
 ```js
 .eslintrc.js
 // https://eslint.org/docs/user-guide/configuring
@@ -76,6 +76,7 @@ module.exports = {
         // allow debugger during development
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
         'no-return-assign': 0,
+        'space-before-function-paren': ["error", "never"]
     }
 }
 ```

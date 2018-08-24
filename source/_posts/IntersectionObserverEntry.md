@@ -1,8 +1,7 @@
 ---
 title: IntersectionObserverEntry
 date: 2018-08-10 11:13:32
-banner: http://s.qnc.shixunwang.net/FgDvKfQufgDfOXweiC2GSEp-Y-EF
-thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVqbb6RW4jIbMz0VeiatrjVi21gO8noc5P8yj3EJooC4g1dEXe
+thumbnail: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533643573891&di=3e7c709f7bc31bd53e52c58a9eaed09d&imgtype=0&src=http%3A%2F%2Fcdnq.duitang.com%2Fuploads%2Fitem%2F201505%2F16%2F20150516211813_MwWSd.jpeg
 tags:
 - js
 ---
